@@ -1,0 +1,31 @@
+.navbar-expand-lg {
+    background: #000080;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.cn-nav {
+    padding: 10px;
+
+}
+
+li {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.second-nav {
+    background-color: #eee;
+    box-shadow: 4px 4px 4px 4px #ccc;
+}
+.carousel-inner img{
+    
+}
