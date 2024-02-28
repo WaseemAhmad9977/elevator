@@ -130,9 +130,9 @@ section{
    
 }
 .iconCrds{
-    height: 200px;
-    width: 200px;
-    background-color: orange;
+    height: 150px;
+    width: 160px;
+    background-color: #e8b320;
     margin: 20px 50px;
     border-radius: 10px;
     padding-top: 30px;
@@ -151,15 +151,14 @@ section{
 }
 span{
 
-    font-size: 95px;
-   
+    font-size: 45px;   
     padding: 55px;
     text-align: center;
     color: rgb(18, 13, 13);
 }
 
 .crdH{
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
 }
 .feature{
