@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#About_Us{
+    
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+.AboutUs_img
+{
+    height: 400px;
+    background-image: url(/images/steptodown.com329999.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.chooseUs{
+    text-align: center;
+    margin: 20px;
+}
+.AboutUs_img h1{
+    width: 50%;
+    margin-left: 400px;
+    height: 200px;
+    backdrop-filter:blur(15px) ;
+    background:rgba(225,255,255,0.1) ;
+}
+.AboutUs_img h1 span:hover{
+    color: orange;
+}
+.AboutUs_img p{
+    margin-top:20px ;
+    font-size: 26px;
+    color: rgb(235, 132, 94);
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: absolute;
+   
+}
+.abt{
+    height:500px;
+    width: 700px;
+    margin: 40px;
+   
+    border-radius: 20px;
+}
+
+.Main_heading{
+    font-size: 4rem;
+   color:rgb(7, 7, 7);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(74, 73, 73);
+}
+.AboutUs_Detail{
+    border-radius: 2%;
+    line-height: 40px;
+}
+.AboutUs_Detail h1{
+    color: orange;
+    font-size: 45px;
+    line-height: 45px;
+   
+}
+.AboutUs_Detail p{
+    
+    line-height: 35px;
+    border-radius: 5%;
+    padding: 20px;
+    color:black;
+    font-weight: bold;
+}
+.AboutUs_Detail ul li{
+    list-style: none;
+    margin-left:20px;
+    font-weight: bold;
+}
+.img{
+    background:url(/images/steptodown.com946794.jpg);
+    border-radius: 1% 6% 1% 6%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    animation-name:slide_img;
+    animation-iteration-count:1;
+    animation-duration: 4s;
+    animation-delay: 5ms;
+    
+}
+@keyframes slide_img{
+    0%{
+        left: -685px;
+    }
+    100%{
+        left: 0px;
+    }
+
+    
+}
+.cards{
+    display: flex;
+    position: relative;
+    top: 650px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.crd{
+    display: flex;
+    flex-wrap:wrap;
+}
+.featureHeading{
+    width: 30px;
+    height: 400px;
+   
+}
+.iconCrds{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin: 20px 50px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+.iconCrds:hover{
+    background-color: rgb(220, 126, 32);
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(228, 197, 131);
+}
+
+.crdimg{
+    background:url(/images/[Downloader.la]-65ddbc69f2c78.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+span{
+
+    font-size: 95px;
+   
+    padding: 55px;
+    text-align: center;
+    color: rgb(18, 13, 13);
+}
+
+.crdH{
+    font-size: 25px;
+    text-align: center;
+}
+.feature{
+    font-size: 60px;
+  height: 90px;
+  width: 557px;
+  border: 4px solid #f5f2f2;
+  position: absolute;
+  left: 620px;
+  top: 1128px;
+  z-index: 1;
+  color: orange;
+  background-color: white;
+}
+.img1{
+    height: 250px ;
+    width: 250px;
+    position: absolute;
+    right: 40%;
+    bottom: 30%;
+  
+    background: url(/images/elevtor1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 10%;
+
+}

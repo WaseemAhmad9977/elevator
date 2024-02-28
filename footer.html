@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Footer</title>
+<style>
+    /* Basic styling */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .logo {
+        flex: 1;
+        text-align: left;
+    }
+    .useful-links {
+        flex: 2;
+        text-align: center;
+    }
+    .company-details {
+        flex: 1;
+        text-align: right;
+    }
+    /* Responsive design */
+    @media only screen and (max-width: 600px) {
+        footer {
+            flex-direction: column;
+            text-align: center;
+        }
+        .logo, .useful-links, .company-details {
+            flex: auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<footer>
+    <div class="logo">
+        <img src="logo.png" alt="Company Logo" width="100">
+    </div>
+    <h4>Importants Link</h4>
+    <div class="useful-links">
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+        <a href="#">Home</a>
+    </div>
+    <div class="company-details">
+        Company Name<br>
+        Address: 123 Main St, City, Country<br>
+        Phone: 123-456-7890<br>
+        Email: info@example.com
+    </div>
+</footer>
+
+</body>
+</html>
