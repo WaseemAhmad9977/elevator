@@ -1,0 +1,172 @@
+/* Reset some default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Style for the footer section */
+.footer-section {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+/* Style for the container within the footer */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Style for the rows within the footer */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+/* Style for the individual columns within a row */
+.col-xl-4,
+.col-lg-4,
+.col-md-6 {
+    flex-basis: calc(33.3333% - 20px);
+    margin-bottom: 20px;
+}
+
+/* Style for the first row containing contact information */
+.footer-cta .single-cta {
+    text-align: center;
+}
+
+/* Style for the icons in the contact information section */
+.footer-cta i {
+    font-size: 24px;
+    /* margin-bottom: 0px; */
+    /* border: 5px solid green; */
+
+
+    color: red;
+}
+
+/* Style for the second row containing the logo, text, and social icons */
+.footer-content .footer-widget {
+    text-align: center;
+}
+
+/* Style for the text within the footer */
+.footer-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #aaa;
+}
+
+/* Style for the social icons */
+.footer-social-icon a {
+    margin: 0 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-widget {
+    margin-top: 25px;
+}
+
+/* Style for the third row containing useful links */
+.footer-widget ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-widget ul li {
+    margin-bottom: 7px;
+    /* list-style: none; */
+
+}
+
+/* Style for the subscribe section */
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.subscribe-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Style for the copyright area */
+.copyright-area p {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Style for the footer menu */
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: red !important;
+}
+
+.contact-section {
+    display: flex;
+    /* align-items: start; */
+    justify-content: space-around;
+    flex-direction: column;
+    /* border: 5px solid yellow; */
+    align-items: start;
+
+}
+
+.cta-text>h4 {
+    /* position: relative; */
+    display: flex;
+    align-items: start;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-widget {
+        flex-basis: 100%;
+    }
+}
