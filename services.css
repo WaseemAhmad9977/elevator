@@ -33,13 +33,14 @@
 h1,
 p {
   color: white;
-  font-weight:400;
+  font-weight: 400;
   font-family: sans-serif;
 
 }
 
 .card-text>p {
   color: black;
+  /* text-align: start; */
 }
 
 
@@ -131,8 +132,13 @@ h1 {
       padding: 30px 15px;
       font-family: 'Roboto', sans-serif;
       line-height: 22px;
+      text-align: justify;
+      word-spacing: -5px;
+
 
     }
+
+    /* #CB6074 */
 
     .read-more {
       /* @include transition(.3s); */
@@ -151,4 +157,24 @@ h1 {
       }
     }
   }
+}
+
+.cardHead {
+  color: rgb(rgb(221, 9, 9), green, blue);
+  font-size: 30px !important;
+  font-weight: 700;
+}
+
+img:hover {
+  box-shadow: 7px 7px 7px 7px black;
+}
+
+.read-more:hover {
+  background: rgb(250, 166, 10) !important;
+}
+
+.header>h1 {
+  /* margin-bottom: 20px; */
+  position: relative;
+  bottom: 30px;
 }
