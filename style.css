@@ -1,37 +1,85 @@
-.navbar-expand-lg {
-    background: #000080;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.first-nav{
+    background: white;
+    border: 0.5px solid green;
+    height: 60px;
+    /* display: flex; */
+    /* position: fixed; */
+    /* top: 56px; */
+
 }
 
 .logo {
     height: 100px;
-    width: 100px;
+    width: 150px;
 }
-
-
 
 .cn-nav {
     padding: 10px;
 
 }
 
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+
 li {
     font-weight: 100;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
+    /* font-weight: bold; */
+    margin-left: 10px;
+    /* border-right: 0.5px solid green;
+    border-bottom: 0.5px solid green; */
+    list-style: none;
+   
 }
 
-.second-nav {
-    background-color: #eee;
-    box-shadow: 4px 4px 4px 4px #ccc;
+i{
+    color: red;
 }
+
+.second-nav{
+    height: 100px;
+    /* position: fixed; */
+    /* top: 56px; */
+
+}
+.headerlink{
+   display: flex;
+   /* justify-content: space-around; */
+   gap: 600px;
+}
+.second-nav li{
+     font-size: 15px;
+     text-transform: uppercase;
+     
+} 
+
+body {
+    padding-top: 56px; /* Adjust this value based on the height of your first navbar */
+  }
+
+  .navbar-fixed-top {
+    position:  fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+
+  .navbar-fixed-bottom {
+    position: fixed !important;
+    bottom: 399px;
+    width: 100%;
+    z-index: 1030;
+  }
+
 
 /* waseem  para*/
-
-.nehapara {
-    background: red;
-    color: #fff;
-    font-size: 15px;
-    text-align: center;
-}
